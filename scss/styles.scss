@@ -1,0 +1,172 @@
+@import 'colors';
+
+
+%zero-out {
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+    height: auto;
+    width: 90%;
+    padding: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    h1 {
+      font-size: 55px;
+    }
+    h2 {
+      font-size: 45px;
+    }
+    h3 {
+      font-size: 35px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+    h5, p, a, ul{
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      &:hover {
+      color: $lightcomfyblue;
+      }
+    }
+  }
+
+
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  @extend %zero-out;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+.expList {
+  padding-bottom: 0;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.header {
+  background: linear-gradient( $lightcomfyblue, white);
+  background-size: 50% auto;
+  padding: 50px 5px 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px $meltedBlue;
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-position: 80% 15%;
+    object-fit: cover;
+  }
+  h3 {
+    padding-left: 20px;
+    color: $fadedgray;
+  }
+  .name {
+    display: flex;
+    gap: 6px;
+    height: auto;
+    padding: 0;
+  }
+  .first {
+    color : $darkmeltedblue;
+  }
+}
+
+.underLine {
+  background-color: $comfyblue;
+  height: 5px;
+  width: 80px;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.sideBar {
+  border-right: solid 2px $meltedBlue;
+  .contactInfo {
+    padding: 5px 10px 5px 0;
+    h4 {
+      padding: 5px 0;
+    }
+    .socialMedia {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      color: $darkmeltedblue;
+    }
+    .skills {
+      width: 260px;
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.main {
+  width: 100%
+}
+.bigContent {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 0;
+  p {
+    color : $darkmeltedblue;
+    padding-left: 10px;
+  }
+  .info {
+    padding: 0;
+  }
+  .time {
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    .job {
+      padding-bottom: 0;
+    }
+  }
+  .expText {
+    flex-basis: 100%;
+  }
+}

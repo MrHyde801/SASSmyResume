@@ -1,0 +1,165 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: auto;
+  width: 90%;
+  padding: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body h1 {
+  font-size: 55px;
+}
+body h2 {
+  font-size: 45px;
+}
+body h3 {
+  font-size: 35px;
+}
+body h4 {
+  font-size: 25px;
+}
+body h5, body p, body a, body ul {
+  font-size: 20px;
+}
+body h6 {
+  font-size: 10px;
+}
+body a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+body a:hover {
+  color: #A5C3F2;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+.expList {
+  padding-bottom: 0;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.header {
+  background: linear-gradient(#A5C3F2, white);
+  background-size: 50% auto;
+  padding: 50px 5px 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px #3260A1;
+}
+.header img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-position: 80% 15%;
+  object-fit: cover;
+}
+.header h3 {
+  padding-left: 20px;
+  color: #6e7885;
+}
+.header .name {
+  display: flex;
+  gap: 6px;
+  height: auto;
+  padding: 0;
+}
+.header .first {
+  color: #1E457B;
+}
+
+.underLine {
+  background-color: #8EB6F5;
+  height: 5px;
+  width: 80px;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.sideBar {
+  border-right: solid 2px #3260A1;
+}
+.sideBar .contactInfo {
+  padding: 5px 10px 5px 0;
+}
+.sideBar .contactInfo h4 {
+  padding: 5px 0;
+}
+.sideBar .contactInfo .socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+.sideBar .contactInfo p {
+  color: #1E457B;
+}
+.sideBar .contactInfo .skills {
+  width: 260px;
+}
+.sideBar .contactInfo .skills p {
+  font-size: 18px;
+}
+
+.main {
+  width: 100%;
+}
+
+.bigContent {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 0;
+}
+.content p {
+  color: #1E457B;
+  padding-left: 10px;
+}
+.content .info {
+  padding: 0;
+}
+.content .time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.content .time .job {
+  padding-bottom: 0;
+}
+.content .expText {
+  flex-basis: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
